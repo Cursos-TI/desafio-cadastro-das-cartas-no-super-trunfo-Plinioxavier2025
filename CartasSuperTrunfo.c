@@ -3,21 +3,19 @@ int main(){
 
 long população;
 double area;
-double pib;
-int pontosturisticos;
+float pib;
+int num_pontos_turisticos;
 
 printf("população");
-scanf("%d", &população);
+scanf("%f", &população);
 
 printf("area em metros");
-scanf("%f", &area);
+scanf("%1d", &area);
 
 printf("pib em milhões");
-Scanf("%f",&pib);
+Scanf("%1f", &pib);
 
-Printf("numero de pontos turisticos");
-Scanf("%d", &pontosturisticos);
-
+printf("nun_pontos_turisticos");
+scanf("%d", &num_pontos_turisticos);
 return 0;
-
 }
